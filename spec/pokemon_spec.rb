@@ -50,6 +50,8 @@ describe "Pokemon" do
 
     let(:pikachu){Pokemon.find(1, @db)}
     let(:magikarp){Pokemon.find(2, @db)}
+  end
+end 
 
     # remove the 'x' before 'it' to run these tests
     #xit "knows that a pokemon have a default hp of 60" do
